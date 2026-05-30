@@ -1,3 +1,5 @@
+#!/usr/bin/env python 
+
 import argparse
 from PIL import Image
 from tqdm import tqdm
