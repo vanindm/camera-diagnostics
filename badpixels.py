@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
         description="Detect bad pixels on pitch black image")
 
 parser.add_argument('filename')
-parser.add_argument('-t', '--treshold', default=0.9)
+parser.add_argument('-t', '--treshold', type=float, default=0.9)
 parser.add_argument('-c', '--count', action="store_true")
 parser.add_argument('-p', '--progress', action="store_true")
 parser.add_argument('-v', '--verbose', type=int, choices=[0, 1, 2])
